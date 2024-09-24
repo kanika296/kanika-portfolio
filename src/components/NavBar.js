@@ -52,19 +52,18 @@ export const NavBar = () => {
               <Nav.Link href="#experiences" className={activeLink === 'experiences' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('experiences')}>Experience</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+              {/* <Nav.Link href="#tools" className={activeLink === 'tools' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('tools')}>Tools</Nav.Link> */}
               <Nav.Link href="#achievements" className={activeLink === 'achievements' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('achievements')}>Achievements</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/kanika-y"><img src={navIcon1} alt="" /></a>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kanikaofficial.517191@gmail.com">
-                  <img src={mailIcon} alt="Mail Icon" />
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kanikaofficial.517191@gmail.com&su=Connect%20with%20Kanika">
+                 <img src={mailIcon} alt="Mail Icon" />
                 </a>
-
-                {/* <a href="https://www.linkedin.com/in/kanika-y" ><img src={navIcon4}/></a> */}
               </div>
               <HashLink to='#connect'>
-                <button className="vvd" style={{borderRadius: '50px'}}><span>Let’s Connect</span></button>
+                <button className="vvd"><span>Let’s Connect</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>

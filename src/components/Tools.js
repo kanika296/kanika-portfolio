@@ -3,7 +3,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
 
-export const Skills = () => {
+export const Tools = () => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -25,12 +25,12 @@ export const Skills = () => {
   };
 
   return (
-    <section className="skill" id="skills">
-        <div className="container">
-            <div className="row">
-                <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
+    <section className="tools" id="tools" >
+        <div className="container" >
+            <div className="row" >
+                <div className="col-12" style={{    paddingBottom: '75px', flex: '0 0 auto', width: '100%', paddingTop: '0px', zIndex: '999'}}>
+                    <div className="skill-bx wow zoomIn" style={{paddingBottom: "50px", backgroundColor: '3d1243'}}>
+                        <h2>Tools</h2>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 {/* <img src={meter1} alt="Image" /> */}
@@ -86,7 +86,6 @@ export const Skills = () => {
                               <h5>Spring Boot</h5>
                             </div>
                             <div className="item" >
-                              {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" /> */}
                               <img style={{background: 'white'}} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
                               <h5>GitHub</h5>
                             </div>

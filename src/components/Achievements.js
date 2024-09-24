@@ -3,6 +3,8 @@ import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Achievements.css';
+import img1 from '../assets/img/img1.jpeg';
+import img2 from '../assets/img/img2.jpeg';
 
 export const Achievements = () => {
   const responsive = {
@@ -49,18 +51,18 @@ export const Achievements = () => {
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme achievement-slider">
                 <div className="item">
                   <div className="card" style={cardStyle}>
-                    <img className="card-img-top" src="https://media.licdn.com/dms/image/v2/D4E2DAQGCoKGusXgUHw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1723751918594?e=1724533200&v=beta&t=T8pceG9ya7gfKApZDLFtVZ4ASB8SOhoIoqwXMf0Kev8" alt="Achievement Image 1" style={imageStyle} />
+                    <img className="card-img-top" alt="Achievement Image 1" style={imageStyle} src={img1}/>
                     <div className="card-body">
-                      <h5 className="card-title">Deutsche Bank Global Hackathon Winner</h5>
+                      <h5 style={{color: 'white'}} className="card-title">Deutsche Bank Global Hackathon Winner</h5>
                       <p className="card-text">Issued by Deutsche Bank, Dementia UK · Jul 2024</p>
                     </div>
                   </div>
                 </div>
                 <div className="item">
                   <div className="card" style={cardStyle}>
-                    <img className="card-img-top" src="https://media.licdn.com/dms/image/C4D2DAQEiao_xU3PO_w/profile-treasury-image-shrink_800_800/0/1648901671536?e=1724533200&v=beta&t=JReBKjFrxZXTgdGfekhycX23c-wbkgN8zsb2GE7kqtA" alt="Achievement Image 2" style={imageStyle} />
+                    <img className="card-img-top"  src={img2} alt="Achievement Image 2" style={imageStyle} />
                     <div className="card-body">
-                      <h5 className="card-title">Toycathon 2021 Winner</h5>
+                      <h5 style={{color: 'white'}} className="card-title">Toycathon 2021 Winner</h5>
                       <p className="card-text">Issued by Ministry of Education’s Innovation Cell, Govt. of India · Jun 2021</p>
                     </div>
                   </div>

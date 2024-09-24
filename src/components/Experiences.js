@@ -40,52 +40,48 @@ export const Experiences = () => {
                         <h2 className="experiences">Experiences</h2>                        
                         <p className="description">I am a highly skilled software engineer with almost 2 years of experience in designing and delivering software solutions accross multiple technical areas within various business functions </p>
                         <VerticalTimeline className="box-experience">
-                          <VerticalTimelineElement
+                          <VerticalTimelineElement style={{textAlign: 'left'}}
                           
                             className="vertical-timeline-element--work"
                             date="Jul 2023 - Present"
-                            iconStyle={{ background: 'blue', color: '#fff' }}
-                            // icon={<WorkIcon />}
+                            iconStyle={{ backgroundColor: '#89CFF0' }}
                           >
                             <h3 style={{color: 'blue'}} className="vertical-timeline-element-title">Deutsche Bank</h3>
                             <h4 className="vertical-timeline-element-subtitle">Graduate Analyst</h4>
                             <p className="para-m">
-                              Working as a Full Stack developer.
+                              Pune
                             </p>
                           </VerticalTimelineElement>
                           <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            date="Jul 2023 - Present"
-                            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            // icon={<WorkIcon />}
+                            date="Jan 2023 - Mar 2023"
+                            iconStyle={{ backgroundColor: '#318CE7' }}
                           >
                             <h3 style={{color: 'rgb(33, 150, 243)'}}  className="vertical-timeline-element-title">Bhabha Atomic Research Center</h3>
                             <h4 className="vertical-timeline-element-subtitle">Project Intern</h4>
                             <p className="para-m">
-                              Machine Learning
+                              Mumbai
                             </p>
                           </VerticalTimelineElement>
-                          <VerticalTimelineElement
+                          <VerticalTimelineElement style={{textAlign: 'left'}}
                             className="vertical-timeline-element--work"
-                            date="2011 - present"
-                            iconStyle={{ background: 'blue', color: '#800080' }}
-                            // icon={<WorkIcon />}
+                            date="May 2022 - July 2022"
+                            iconStyle={{ backgroundColor: '#0039a6' }}
                           >
                             <h3 style={{color: 'blue'}} className="vertical-timeline-element-title">Deutsche Bank</h3>
                             <h4 className="vertical-timeline-element-subtitle">Technology Analyst Intern</h4>
                             <p className="para-m">
-                              Description of the event or milestone
+                              Pune
                             </p>
                           </VerticalTimelineElement>
                           <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            date="2019 - 2023"
-                            iconStyle={{ background: 'blue', color: 'pink' }}
-                            // icon={<WorkIcon />}
+                            date="Aug 2019 - May 2023"
+                            iconStyle={{ backgroundColor: '#002D62' }}
                           >
                             <h3 style={{color: 'blue'}} className="vertical-timeline-element-title">B Tech Graduate</h3>
-                            <h4 className="vertical-timeline-element-subtitle">SNDT Women's University</h4>
-                            <h5>GPA: 9.28</h5>
+                            <h4 className="vertical-timeline-element-subtitle">SNDT Women's University, Mumbai</h4>
+                            <p style={{color: 'black', textAlign: 'left'}}>GPA: 9.3</p>
                           </VerticalTimelineElement>
                         </VerticalTimeline>
                     </div>
