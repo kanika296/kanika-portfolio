@@ -3,8 +3,6 @@
 // import meter3 from "../assets/img/meter3.svg";
 // import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
@@ -32,7 +30,7 @@ export const Experiences = () => {
   };
 
   return (
-    <section className="experience" id="experiences">
+    <section responsive={responsive} className="experience" id="experiences">
         <div className="container">
             <div className="row">
                 <div className="col-12">
@@ -88,7 +86,7 @@ export const Experiences = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img alt='bgImage'className="background-image-left" src={colorSharp} />
     </section>
   )
 }

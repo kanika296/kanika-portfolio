@@ -51,7 +51,7 @@ export const Achievements = () => {
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme achievement-slider">
                 <div className="item">
                   <div className="card" style={cardStyle}>
-                    <img className="card-img-top" alt="Achievement Image 1" style={imageStyle} src={img1}/>
+                    <img className="card-img-top" alt="Achievement  1" style={imageStyle} src={img1}/>
                     <div className="card-body">
                       <h5 style={{color: 'white'}} className="card-title">Deutsche Bank Global Hackathon Winner</h5>
                       <p className="card-text">Issued by Deutsche Bank, Dementia UK · Jul 2024</p>
@@ -60,7 +60,7 @@ export const Achievements = () => {
                 </div>
                 <div className="item">
                   <div className="card" style={cardStyle}>
-                    <img className="card-img-top"  src={img2} alt="Achievement Image 2" style={imageStyle} />
+                    <img className="card-img-top"  src={img2} alt="Achievement  2" style={imageStyle} />
                     <div className="card-body">
                       <h5 style={{color: 'white'}} className="card-title">Toycathon 2021 Winner</h5>
                       <p className="card-text">Issued by Ministry of Education’s Innovation Cell, Govt. of India · Jun 2021</p>
